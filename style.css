@@ -1,0 +1,49 @@
+ body {
+background-color: rgb(51, 117, 170);
+
+}
+
+
+.title{
+
+    font-size: 300%;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 300px;
+    margin: 75px auto;
+    background: #dd3d3d;
+    padding: 50px;
+    border-radius: 25px;
+}
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 1px #333333;
+    border: 1px solid #333333;
+    cursor: pointer;
+line-height: 100px;
+    font-size: 60px;
+}
+
+.restart{
+
+    width: 80px;
+    height: 50px;
+    
+    background-color: #ad6767;
+}
+
+@media only screen and (max-width:1024px){
+    .container{
+        margin-top:25px ;
+        grid-gap: 10px;
+    }
+}
+
+.status{
+    color: #000000;
+    font-size: 30px;
+}
